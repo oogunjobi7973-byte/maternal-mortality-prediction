@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+streamlit
+requests
+pandas
+numpy
+joblib
+interpret==0.7.8
+scikit-learn==1.6.1
