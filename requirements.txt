@@ -1,9 +1,11 @@
 fastapi
-uvicorn
+uvicorn[standard]
 streamlit
 requests
 pandas
 numpy
 joblib
-interpret==0.7.8
 scikit-learn==1.6.1
+interpret==0.7.8
+shap
+scipy
