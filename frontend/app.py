@@ -141,7 +141,7 @@ if st.button("🔍 Predict Maternal Mortality Risk", use_container_width=True):
 
     try:
         with st.spinner("Analyzing patient information..."):
-            response = requests.post(API_URL, json=patient_data, timeout=30)
+            response = requests.post(API_URL, json=patient_data, timeout=180)
 
         if response.status_code == 200:
             result = response.json()
